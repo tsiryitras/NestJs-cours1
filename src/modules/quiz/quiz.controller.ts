@@ -4,6 +4,6 @@ import { Controller, Get } from '@nestjs/common';
 export class QuizController {
   @Get('/')
   getAllQuiz() {
-    return { name: 'auiz' };
+    return { name: 'auiz', ee: 'sss' };
   }
 }
